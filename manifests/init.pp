@@ -55,7 +55,7 @@ class etcd_mount
     provider => 'systemd',
   }
 
-  file { '/etc/systemd/system/multiuser.target.wants/var-lib-etcd.mount':
+  file { '/etc/systemd/system/multi-user.target.wants/var-lib-etcd.mount':
     ensure => link,
     target => '/usr/lib/systemd/system/var-lib-etcd.mount',
   }
