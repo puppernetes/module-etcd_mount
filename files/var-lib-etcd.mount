@@ -7,4 +7,4 @@ What=/dev/xvdd
 Where=/var/lib/etcd
 Type=xfs
 [Install]
-WantedBy=multiuser.target
+WantedBy=multi-user.target

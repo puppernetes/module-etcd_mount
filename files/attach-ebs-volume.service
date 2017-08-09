@@ -8,4 +8,4 @@ Type=oneshot
 RemainAfterExit=yes
 ExecStart=/usr/local/sbin/attach_volume.sh
 [Install]
-WantedBy=multiuser.target
+WantedBy=multi-user.target
